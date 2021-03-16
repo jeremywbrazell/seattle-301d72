@@ -197,10 +197,11 @@ Student.prototype.scopeArrow = () => console.log(this);
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(joe.scopeArrow());
 
-// TODO: Write a COMMENT below to answer the following questions.
-// 1. What is "this" when joe.scope() is invoked?
-//
-// 2. What is "this" when joe.scopeArrow() is invoked?
-//
-// 3. Explain why "this" is different when an arrow function is used.
-//
+TODO: Write a COMMENT below to answer the following questions.
+1. What is "this" when joe.scope() is invoked? The instance joe.
+
+2. What is "this" when joe.scopeArrow() is invoked? This is assigned to window.
+
+3. Explain why "this" is different when an arrow function is used.
+
+Arrow functions have their own bindings.
